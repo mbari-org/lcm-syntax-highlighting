@@ -1,0 +1,40 @@
+{
+    "name": "lcm-syntax-highlighting",
+    "displayName": "LCM Syntax Highlighting",
+    "description": "Provides syntax highlighting for LCM Type Specification files (*.lcm).",
+    "version": "0.1.0",
+    "publisher": "MBARI",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mbari-org/lcm-syntax-highlighting"
+    },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "lcm",
+                "aliases": [
+                    "LCM",
+                    "lcm"
+                ],
+                "extensions": [
+                    ".lcm"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "lcm",
+                "scopeName": "source.lcm",
+                "path": "./syntaxes/lcm.tmLanguage.json"
+            }
+        ]
+    }
+}
