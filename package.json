@@ -1,6 +1,6 @@
 {
     "name": "lcm-syntax-highlighting",
-    "displayName": "LCM Syntax Highlighting",
+    "displayName": "LCM Syntax",
     "description": "Provides syntax highlighting for LCM Type Specification files (*.lcm).",
     "version": "0.1.0",
     "publisher": "mbari",
