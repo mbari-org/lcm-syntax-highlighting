@@ -3,11 +3,11 @@
     "patterns": [
         {
             "name": "keyword.control.lcm",
-            "match": "\\b(package|struct|enum|include)\\b"
+            "match": "\\b(package|struct|const)\\b"
         },
         {
             "name": "storage.type.lcm",
-            "match": "\\b(int8_t|int16_t|int32_t|int64_t|float|double|string|boolean)\\b"
+            "match": "\\b(int8_t|int16_t|int32_t|int64_t|float|double|string|boolean|byte)\\b"
         },
         {
             "name": "constant.numeric.lcm",
